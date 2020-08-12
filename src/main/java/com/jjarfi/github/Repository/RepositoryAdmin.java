@@ -9,6 +9,7 @@ import java.util.Optional;
 @Repository("repoadmin")
 public interface RepositoryAdmin extends PagingAndSortingRepository<Admin, String> {
 
+    // TODO: Dependenci injection untuk model Admin 8/12/20
     Admin findByUsernameAndPassword(String uname, String pass);
 
     Optional<Admin> findById(Integer id);

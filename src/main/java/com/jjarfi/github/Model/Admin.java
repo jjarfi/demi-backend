@@ -6,6 +6,7 @@ import java.sql.Timestamp;
 @Entity
 @Table(name = "admin")
 public class Admin {
+    // TODO: Entity admin dengan persistence hibernate 8/12/20
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     private int id;
@@ -23,7 +24,7 @@ public class Admin {
     private String password;
     private Timestamp createdate;
 
-
+    // TODO: Mengembalikan nilai null 8/12/20
     public Admin() {
     }
 

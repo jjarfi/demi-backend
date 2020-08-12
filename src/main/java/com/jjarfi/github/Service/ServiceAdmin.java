@@ -13,6 +13,7 @@ public class ServiceAdmin {
     @Autowired
     private RepositoryAdmin repoadmin;
 
+    // TODO: Service untuk find admin by id 8/12/20
     public Optional<Admin> findId(Integer id){
         return repoadmin.findById(id);
     }

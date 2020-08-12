@@ -1,7 +1,5 @@
 package com.jjarfi.github.Model;
-
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name = "role")
